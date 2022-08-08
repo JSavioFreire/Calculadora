@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+main{   
+    width: 400px;
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+
+}
+main #visor{
+    background-color: rgb(30, 29, 29);
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    line-height: 100px;
+    display: inline-block;
+}
+#numeros div {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 10px;
+    line-height: 50px;
+}
+#operadores div{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    line-height: 50px;
+    font-size: 1.5em;
+}
+#numeros{
+    display: inline-block;
+
+}
+#operadores{
+    display: inline-block;
+}
