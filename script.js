@@ -35,13 +35,15 @@
     dividir.addEventListener('click', clicoudividir)
     igual.addEventListener('click', clicouigual)
 
+    
+
     function clicou1(){
-        var num = '1'
-        resultado.innerHTML += `1`
+        var num = 1
+        resultado.innerHTML += num
     }
     function clicou2(){
-        var num = '2'
-        resultado.innerHTML += `2`
+        var num = 2
+        resultado.innerHTML += num
     }
     function clicou3(){
         var num = '3'
@@ -84,8 +86,8 @@
         resultado.innerHTML += `apagar`
     }
     function clicoumais(){
-        var num = '+'
-        resultado.innerHTML += `+`
+        
+        
     }
     function clicoumenos(){
         var num = '-'
@@ -100,9 +102,11 @@
         resultado.innerHTML += `/`
     }
     function clicouigual(){
-        var num = '='
-        resultado.innerHTML += `=`
+        var teste = document.querySelector('#teste')
+        teste.innerHTML = `O teste é aqui ${num}`
+        
     }
+    
 
    
     
