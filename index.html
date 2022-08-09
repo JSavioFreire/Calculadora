@@ -7,30 +7,71 @@
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script src="script.js" defer></script>
 <body>
     <main>
-        <div id="visor">1524</div>
+        <div id="divisor">
+            <div id="visor"></div>
+        </div>
+        
         <div id="numeros">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
-            <div>0</div>
+                <button id="um">
+                    <div>1</div>
+                </button>
+                <button id="dois">
+                    <div>2</div>
+                </button>
+                <button id="tres">
+                    <div>3</div>
+                </button>
+                <button id="quatro">
+                    <div>4</div>
+                </button>
+                <button id="cinco">
+                    <div>5</div>
+                </button>
+                <button id="seis">
+                    <div>6</div>
+                </button>
+                <button id="sete">
+                    <div>7</div>
+                </button>
+                <button id="oito">
+                    <div>8</div>
+                </button>
+                <button id="nove">
+                    <div>9</div>
+                </button>
+                <button id="virgula">
+                    <div>,</div>
+                </button>
+                <button id="zero">
+                    <div>0</div>
+                </button>
+                <button id="apagar">
+                    <div>&#X232B</div>
+                </button>
         </div>
         <div id="operadores">
-            <div>+</div>
-            <div>-</div>
-            <div>X</div>
-            <div>/</div>
-            <div>=</div>
-
+                <button id="mais">
+                    <div>+</div>
+                </button>
+                <button id="menos">
+                    <div>-</div>
+                </button>
+                <button id="vezes">
+                    <div>x</div>
+                </button>
+                <button id="dividir">
+                    <div>/</div>
+                </button>
+                <button id="igual">
+                    <div>=</div>
+                </button>
         </div>
     </main>
+
+
 
 </body>
 </html>
